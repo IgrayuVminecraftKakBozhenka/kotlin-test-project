@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">kotlin-test-project</string>
+    <string name="str">Test question-answer</string>
+    <string name="begin_button">Begin</string>
+    <string name="main_screen">Question with a choice of answer</string>
+    <string name="variant_one">Variant One</string>
+    <string name="variant_two">Variant Two</string>
+    <string name="first_question">What year did Kotlin appear?</string>
+    <string name="answer_one_first_question">2011</string>
+    <string name="answer_two_first_question">2000</string>
+    <string name="answer_three_first_question">1999</string>
+    <string name="answer_four_first_question">456 B. C.</string>
+
 </resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kotlin-test-project</string>
+    <string name="str">Тест вопрос-ответ</string>
+    <string name="begin_button">Начать</string>
+    <string name="main_screen">Вопрос с выбором варианта ответа</string>
+    <string name="variant_one">Вариант один</string>
+    <string name="variant_two">Вариант два</string>
+    <string name="first_question">В каком году появился Kotlin?</string>
+    <string name="answer_one_first_question">2011</string>
+    <string name="answer_two_first_question">2000</string>
+    <string name="answer_three_first_question">1999</string>
+    <string name="answer_four_first_question">456 До Н. Э.</string>
+</resources>
