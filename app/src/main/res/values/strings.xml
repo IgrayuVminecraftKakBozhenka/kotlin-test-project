@@ -10,5 +10,6 @@
     <string name="answer_two_first_question">2000</string>
     <string name="answer_three_first_question">1999</string>
     <string name="answer_four_first_question">456 B. C.</string>
+    <string name="second_question">What is the basis of the Kotlin language?</string>
 
 </resources>
