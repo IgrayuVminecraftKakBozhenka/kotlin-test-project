@@ -21,27 +21,14 @@ class Questions : AppCompatActivity() {
 
         val firstQuestion = getString(R.string.first_question)
         val secondQuestion = getString(R.string.second_question)
-        val testQuestions = arrayOf(Question(1, firstQuestion, "2011", 10), Question(2, secondQuestion, "JVM", 10))
+        val testQuestions = arrayOf(Question(1, firstQuestion, "2011", 10, getString(R.string.answer_two_first_question), getString(R.string.answer_four_first_question), getString(R.string.answer_three_first_question)),
+                Question(2, secondQuestion, "JVM", 10, getString(R.string.incorrect_answer_one_second_question), getString(R.string.incorrect_answer_two_second_question), getString(R.string.incorrect_answer_three_second_question)))
 
         var question = findViewById<TextView>(R.id.question)
 
         question.setText(testQuestions[1].question)
 
-        firstAnswerButton.setOnClickListener {
 
-        }
-
-        secondAnswerButton.setOnClickListener {
-
-        }
-
-        thirdAnswerButton.setOnClickListener {
-
-        }
-
-        fourAnswerButton.setOnClickListener {
-
-        }
 
 
     }
