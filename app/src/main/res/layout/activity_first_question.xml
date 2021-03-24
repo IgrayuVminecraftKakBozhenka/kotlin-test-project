@@ -69,5 +69,11 @@
             android:text="@string/answer_three_first_question"
             tools:layout_editor_absoluteX="58dp"
             tools:layout_editor_absoluteY="297dp" />
+
+        <Button
+            android:id="@+id/nextQuestionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
     </RadioGroup>
 </androidx.constraintlayout.widget.ConstraintLayout>
