@@ -11,9 +11,10 @@
     <string name="answer_three_first_question">1999</string>
     <string name="answer_four_first_question">456 B. C.</string>
     <string name="second_question">What is the basis of the Kotlin language?</string>
-    <string name="incorrect_answer_one_second_question">.NET</string>
-    <string name="incorrect_answer_two_second_question">On C++ base</string>
-    <string name="incorrect_answer_three_second_question">On Intellij Idea base</string>
+    <string name="answer_one_second_question">.NET</string>
+    <string name="answer_two_second_question">Pascal language</string>
+    <string name="answer_three_second_question">JVM</string>
+    <string name="answer_four_second_question">C language</string>
 
 
 </resources>

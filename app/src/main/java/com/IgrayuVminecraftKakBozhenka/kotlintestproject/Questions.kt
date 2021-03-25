@@ -17,6 +17,7 @@ class Questions : AppCompatActivity() {
         
         val nextButton = findViewById<Button>(R.id.nextQuestionButton)
 
+        var question = findViewById<TextView>(R.id.question)
 
         val firstQuestion = getString(R.string.first_question)
         val secondQuestion = getString(R.string.second_question)
@@ -24,31 +25,27 @@ class Questions : AppCompatActivity() {
                 Question(
                         1, 
                         firstQuestion,
-                        "2011",
                         10,
-                        getString(R.string.answer_two_first_question),
-                        getString(R.string.answer_four_first_question),
-                        getString(R.string.answer_three_first_question)),
+                        0,
+                        Answers = arrayOf(getString(R.string.answer_one_first_question),
+                                getString(R.string.answer_two_first_question),
+                                getString(R.string.answer_three_first_question),
+                                getString(R.string.answer_four_first_question))),
+
                 Question(
                         2,
                         secondQuestion,
-                        "JVM",
                         10,
-                        getString(R.string.incorrect_answer_one_second_question),
-                        getString(R.string.incorrect_answer_two_second_question),
-                        getString(R.string.incorrect_answer_three_second_question)))
+                        2,
+                        Answers = arrayOf(getString(R.string.answer_one_second_question),
+                                    getString(R.string.answer_two_second_question),
+                                    getString(R.string.answer_three_second_question),
+                                    getString(R.string.answer_four_second_question))
+                                )
+        )
 
-        var question = findViewById<TextView>(R.id.question)
 
 
 
         }
-
-        
-
-
-
-
-
-
     }
