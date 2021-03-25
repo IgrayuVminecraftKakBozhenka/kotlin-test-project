@@ -11,4 +11,9 @@
     <string name="answer_two_first_question">2000</string>
     <string name="answer_three_first_question">1999</string>
     <string name="answer_four_first_question">456 До Н. Э.</string>
+    <string name="second_question">На базе чего построен Котлин?</string>
+    <string name="answer_one_second_question">.NET</string>
+    <string name="answer_two_second_question">Язык Pascal</string>
+    <string name="answer_three_second_question">JVM</string>
+    <string name="answer_four_second_question">Язык language</string>
 </resources>
